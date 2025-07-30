@@ -1,16 +1,54 @@
-# pharmacy_app
+## 💊 Pharmacy App – Application de Gestion Pharmaceutique
 
-A new Flutter project.
+**Pharmacy App** est une application mobile développée avec **Flutter**, conçue pour aider à la gestion d'une pharmacie. Elle permet de gérer les médicaments, suivre les ventes et stock, et fournir une interface simple pour les utilisateurs.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Fonctionnalités
 
-A few resources to get you started if this is your first Flutter project:
+- 📦 Gestion des médicaments (ajout, mise à jour, suppression)
+- 🛒 Suivi des ventes et des stocks
+- 🔍 Recherche rapide de produits pharmaceutiques
+- 👤 Interface utilisateur intuitive
+- 📱 Déploiement sur Android et iOS
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Installation
+
+### Prérequis
+
+- Flutter SDK installé ([Installer Flutter](https://docs.flutter.dev/get-started/install))
+- Android Studio ou VS Code avec extensions Flutter
+- Un appareil Android/iOS ou un émulateur
+
+### Étapes
+
+1. **Cloner le dépôt :**
+   ```bash
+   git clone https://github.com/AsmaElmourabite/pharmacy_app.git
+   cd pharmacy_app
+Installer les dépendances :
+
+bash
+Copier
+Modifier
+flutter pub get
+Lancer l'application :
+
+bash
+Copier
+Modifier
+flutter run
+📁 Structure du projet
+bash
+Copier
+Modifier
+pharmacy_app/
+├── lib/
+│   ├── main.dart            # Point d'entrée principal
+│   ├── screens/             # Écrans de l'application
+│   └── widgets/             # Composants réutilisables
+├── assets/                  # Images et fichiers statiques
+├── pubspec.yaml             # Dépendances du projet
+└── README.md
